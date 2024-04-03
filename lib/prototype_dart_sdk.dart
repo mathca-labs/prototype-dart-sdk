@@ -1,7 +1,16 @@
 library prototype_dart_sdk;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+class PrototypeSDK {
+  
+  // prototype api key, get from generate from prototype users dashboard
+  final String apiKey;
+  
+  // prototype api key, get from generate from prototype users dashboard
+  final String apiSecret;
+
+  PrototypeSDK({
+    required this.apiKey,
+    required this.apiSecret,
+  });
+
 }

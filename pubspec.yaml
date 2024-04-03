@@ -1,6 +1,6 @@
 name: prototype_dart_sdk
-description: "A new Flutter package project."
-version: 0.0.1
+description: "Dart SDK for Mathca-Labs Prototype Project"
+version: 0.1.0
 homepage:
 
 environment:
